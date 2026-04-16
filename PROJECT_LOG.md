@@ -93,6 +93,7 @@ All booking/listing/portal links use `href="#"` with an HTML comment marking the
 | Commit | Date | Description |
 |---|---|---|
 | Initial | 2026-04-16 | Initial commit — DPM marketing site, full 8-section layout, DPM brand tokens, Lora body font, blueprint-grid hero, two-column services split, CTA split panel |
+| 16APR26_HeroVideo | 2026-04-16 | Wire hero video — rename to `dpm-hero.mp4`, drop `<video>` element, remove blueprint-grid placeholder, set 0.5× playback speed |
 
 ---
 
@@ -121,7 +122,7 @@ git push
 
 ## 7. Known Issues / Open Items
 
-- **Hero video pending:** Placeholder blueprint-grid gradient is live. When video is ready, insert `<video>` element in the marked TODO block in `index.html`. No CSS change needed.
+- ~~**Hero video pending**~~ — resolved. `assets/video/dpm-hero.mp4` live. Plays at 0.5× speed, blueprint-grid placeholder removed.
 - **Placeholder links:** 4 `href="#"` links need real destinations before launch:
   - Owner consultation / calendar booking link (in Process section CTA + owner CTA panel)
   - Tenant listings link (in "Browse Listings" tier card + tenant CTA panel)

@@ -265,25 +265,6 @@ p  { font-size: 1rem; line-height: 1.85; }
   overflow: hidden;
   isolation: isolate;
 }
-
-/* Blueprint grid overlay — architectural feel */
-.hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(143,175,198,0.07) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(143,175,198,0.07) 1px, transparent 1px);
-  background-size: 56px 56px;
-  z-index: 0;
-  pointer-events: none;
-}
-
-/*
-  TODO: When hero video is ready, uncomment and fill in the src path below,
-  then remove the .hero::before blueprint grid if desired.
-  Leave these CSS rules in place — dropping in the <video> element requires no CSS change.
-*/
 .hero__video {
   position: absolute;
   top: 50%;

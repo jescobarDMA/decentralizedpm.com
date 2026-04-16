@@ -41,13 +41,12 @@
      SECTION 1 — HERO
      ============================================================ -->
 <section id="top" class="hero">
-  <!--
-    TODO: When hero video is ready, insert below and remove the blueprint grid (hero::before in CSS if desired):
-    <video class="hero__video" autoplay muted loop playsinline preload="auto" aria-hidden="true">
-      <source src="assets/video/dpm-hero.mp4" type="video/mp4" />
-    </video>
-    The .hero__video CSS class is already defined — dropping in the element requires no CSS changes.
-  -->
+  <video class="hero__video"
+         autoplay muted loop playsinline
+         preload="auto"
+         aria-hidden="true">
+    <source src="assets/video/dpm-hero.mp4" type="video/mp4" />
+  </video>
   <div class="hero__scrim" aria-hidden="true"></div>
   <div class="container hero__content">
     <p class="hero__pre">Houston Property Management</p>
@@ -574,6 +573,10 @@
       }
     });
   });
+
+  // Hero video — half speed (matches DMA sister site)
+  const heroVideo = document.querySelector('.hero__video');
+  if (heroVideo) heroVideo.playbackRate = 0.5;
 
   // Nav transparent → solid on scroll past hero
   const navEl  = document.querySelector('.nav');
