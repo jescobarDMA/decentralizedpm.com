@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Decentralized Property Management — Modern Property Management, Decentralized.</title>
+  <meta name="description" content="DPM provides full-service residential and commercial property management in Houston, TX — leasing, maintenance, owner reporting, and tenant support in one transparent system." />
+  <link rel="icon" href="assets/images/icon.png" type="image/png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============================================================
+     NAVIGATION
+     ============================================================ -->
+<nav class="nav nav--transparent" role="navigation" aria-label="Main navigation">
+  <div class="container nav__inner">
+    <a class="nav__logo" href="#top" aria-label="DPM Home">
+      <img src="assets/images/logo.png" alt="Decentralized Property Management" />
+    </a>
+
+    <ul class="nav__links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#process">How It Works</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav__ctas">
+      <a class="btn btn-ghost-nav" href="#contact-tenants">Find a Home</a>
+      <a class="btn btn-primary nav__cta" href="#contact-owners">Owner Consultation</a>
+    </div>
+
+    <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ============================================================
+     SECTION 1 — HERO
+     ============================================================ -->
+<section id="top" class="hero">
+  <!--
+    TODO: When hero video is ready, insert below and remove the blueprint grid (hero::before in CSS if desired):
+    <video class="hero__video" autoplay muted loop playsinline preload="auto" aria-hidden="true">
+      <source src="assets/video/dpm-hero.mp4" type="video/mp4" />
+    </video>
+    The .hero__video CSS class is already defined — dropping in the element requires no CSS changes.
+  -->
+  <div class="hero__scrim" aria-hidden="true"></div>
+  <div class="container hero__content">
+    <p class="hero__pre">Houston Property Management</p>
+    <h1>Modern Property Management,<br>Decentralized.</h1>
+    <p class="hero__sub">
+      Full-service management for property owners and tenants alike —
+      leasing, maintenance, owner reporting, and resident support in one transparent system.
+    </p>
+    <div class="hero__ctas">
+      <a class="btn btn-primary" href="#contact-owners">I'm a Property Owner</a>
+      <a class="btn btn-ghost" href="#contact-tenants">I'm Looking for a Home</a>
+    </div>
+    <p class="hero__trust">
+      <span>Houston-based</span>·<span>Engineering-led</span>·<span>Owners &amp; Tenants</span>
+    </p>
+  </div>
+  <a class="hero__scroll-cue" href="#problem" aria-label="Scroll to next section">
+    <span></span>
+  </a>
+</section>
+
+<!-- ============================================================
+     SECTION 2 — PROBLEM
+     ============================================================ -->
+<section id="problem" class="problem">
+  <div class="container">
+    <span class="section-label">The Problem</span>
+    <h2>Property Management Shouldn't Feel Like a Black Box</h2>
+    <p class="problem__body">
+      Owners lose margin to vacancy, slow maintenance, and reporting they never see. Tenants wait days for
+      repairs and never know who to call. The system fails both sides — not because it's hard,
+      but because no one has built it right.
+    </p>
+    <div class="problem__stats">
+      <div class="stat-card">
+        <div class="stat-card__number">45+ days</div>
+        <div class="stat-card__text">average vacancy cost per unit when turnover isn't managed proactively</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__number">72 hrs</div>
+        <div class="stat-card__text">industry average to respond to a maintenance request — we target same-day triage</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__number">30%</div>
+        <div class="stat-card__text">of owners report switching property managers due to poor communication and missing reports</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 3 — SERVICES
+     ============================================================ -->
+<section id="services" class="services">
+  <div class="container">
+    <span class="section-label">What We Offer</span>
+    <h2>Full-Service Management for Every Side of the Lease</h2>
+
+    <!-- Two-column owner / tenant split -->
+    <div class="services-split">
+
+      <!-- Owner Column -->
+      <div class="services-col">
+        <div class="services-col__header">
+          <span class="col-badge col-badge--owner">For Property Owners</span>
+        </div>
+        <div class="tiers">
+          <div class="tier-card tier-card--highlight">
+            <span class="tier-badge">Most Popular</span>
+            <div class="tier-card__label">Full-Service</div>
+            <h3>Complete Management</h3>
+            <p>Leasing, maintenance coordination, rent collection, owner reporting, and resident communication — we run your property so you can focus on returns.</p>
+            <a class="btn btn-primary" href="#contact-owners">Get Started</a>
+          </div>
+
+          <div class="tier-card">
+            <div class="tier-card__label">Leasing Only</div>
+            <h3>Tenant Placement</h3>
+            <p>We find, screen, and place qualified tenants. Includes marketing, applications, background checks, and lease execution — then hand off to you.</p>
+            <a class="btn btn-ghost-card" href="#contact-owners">Learn More</a>
+          </div>
+
+          <div class="tier-card">
+            <div class="tier-card__label">Monthly Retainer</div>
+            <h3>Portfolio Partner</h3>
+            <p>Ongoing management, performance reporting, and growth strategy for multi-property owners and investors across the Houston market.</p>
+            <a class="btn btn-ghost-card" href="#contact-owners">Talk to Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tenant Column -->
+      <div class="services-col">
+        <div class="services-col__header">
+          <span class="col-badge col-badge--tenant">For Tenants</span>
+        </div>
+        <div class="tiers">
+          <div class="tier-card tier-card--highlight-tenant">
+            <span class="tier-badge tier-badge--tenant">Available Now</span>
+            <div class="tier-card__label">Listings</div>
+            <h3>Find a Home</h3>
+            <p>Browse available residential and commercial properties in Houston. Apply online — no hidden fees, no runaround, no middlemen.</p>
+            <!-- TODO: swap href with live listings or rental application link -->
+            <a class="btn btn-primary" href="#">Browse Listings</a>
+          </div>
+
+          <div class="tier-card">
+            <div class="tier-card__label">Resident Portal</div>
+            <h3>Pay Rent &amp; Submit Requests</h3>
+            <p>Pay rent online, view your lease documents, and submit maintenance requests from one place — available 24/7.</p>
+            <!-- TODO: swap href with resident portal link -->
+            <a class="btn btn-ghost-card" href="#">Resident Access</a>
+          </div>
+
+          <div class="tier-card">
+            <div class="tier-card__label">Support</div>
+            <h3>Maintenance &amp; Repairs</h3>
+            <p>Submit a request and get a real response — not a ticket number. We coordinate with vetted vendors and keep you updated every step.</p>
+            <!-- TODO: swap href with maintenance request link -->
+            <a class="btn btn-ghost-card" href="#">Submit a Request</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Shared day-to-day services -->
+    <div class="services-grid">
+
+      <div class="service-card">
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+          </svg>
+        </div>
+        <h3>Tenant Screening</h3>
+        <p>Credit, background, income verification, and rental history — we place residents who stay and pay.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+            <line x1="16" y1="13" x2="8" y2="13"/>
+            <line x1="16" y1="17" x2="8" y2="17"/>
+          </svg>
+        </div>
+        <h3>Lease Administration</h3>
+        <p>Digital lease execution, renewals, and compliance — every document tracked, every deadline flagged before it's missed.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+          </svg>
+        </div>
+        <h3>Maintenance Coordination</h3>
+        <p>Vetted vendor network, same-day triage, and real-time updates to both owners and residents.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+            <line x1="8" y1="21" x2="16" y2="21"/>
+            <line x1="12" y1="17" x2="12" y2="21"/>
+          </svg>
+        </div>
+        <h3>Owner Reporting</h3>
+        <p>Monthly statements, cash flow summaries, and portfolio snapshots — clear numbers, delivered on time, every month.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="1" y="4" width="22" height="16" rx="2" ry="2"/>
+            <line x1="1" y1="10" x2="23" y2="10"/>
+          </svg>
+        </div>
+        <h3>Rent Collection</h3>
+        <p>Online payment processing, automatic reminders, and delinquency management — fewer surprises, faster owner disbursements.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 11l3 3L22 4"/>
+            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+          </svg>
+        </div>
+        <h3>Inspections &amp; Compliance</h3>
+        <p>Move-in, move-out, and periodic inspections — documented and delivered before any dispute can arise.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 4 — HOW IT WORKS
+     ============================================================ -->
+<section id="process" class="process">
+  <div class="container">
+    <span class="section-label">How We Work</span>
+    <h2>From Onboarding to Ongoing in 4 Steps</h2>
+
+    <div class="process__steps">
+      <div class="process-step">
+        <div class="process-step__num">1</div>
+        <h3>Audit</h3>
+        <p>We assess your property — current leases, condition, market position, and gaps. You get a written plan before we start.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-step__num">2</div>
+        <h3>Onboard</h3>
+        <p>We set up owner reporting, transition existing tenants, and list vacancies — or handle new applications and lease signing end-to-end.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-step__num">3</div>
+        <h3>Manage</h3>
+        <p>Rent collection, maintenance coordination, lease compliance — every month, every property. Owners see statements; tenants get a responsive point of contact.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-step__num">4</div>
+        <h3>Report</h3>
+        <p>Monthly performance reports for owners. Maintenance resolution confirmations for tenants. No black boxes — every action documented.</p>
+      </div>
+    </div>
+
+    <!-- TODO: swap href with owner booking/calendar link -->
+    <a class="btn btn-primary" href="#">Schedule a Free Property Audit</a>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 5 — WHY DPM / ABOUT
+     ============================================================ -->
+<section id="about" class="about">
+  <div class="container">
+    <div class="about__inner">
+
+      <div class="about__left">
+        <span class="section-label">Why DPM</span>
+        <h2>Built on Systems.<br>Run with Discipline.</h2>
+        <p>Decentralized Property Management was built by an engineer who saw the same failure mode everywhere in real estate: good properties, poor systems. Owners in the dark. Tenants ignored. Money left on the table.</p>
+        <p>We don't just manage properties — we build the operational infrastructure that makes every lease, every maintenance call, and every dollar traceable. The result: lower vacancy, faster resolution, and owners who actually trust their manager.</p>
+
+        <ul class="about__differentiators">
+          <li>
+            <div class="diff-icon">
+              <svg viewBox="0 0 12 12" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="2 6 5 9 10 3"/>
+              </svg>
+            </div>
+            <div>
+              <span class="diff-item__title">Full transparency for owners</span>
+              Every dollar, every work order, every lease event — reported on a schedule you can rely on.
+            </div>
+          </li>
+          <li>
+            <div class="diff-icon">
+              <svg viewBox="0 0 12 12" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="2 6 5 9 10 3"/>
+              </svg>
+            </div>
+            <div>
+              <span class="diff-item__title">Responsive tenant experience</span>
+              Maintenance requests answered, not queued. Residents who feel heard stay longer — and that protects your income.
+            </div>
+          </li>
+          <li>
+            <div class="diff-icon">
+              <svg viewBox="0 0 12 12" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="2 6 5 9 10 3"/>
+              </svg>
+            </div>
+            <div>
+              <span class="diff-item__title">Houston-market expertise</span>
+              We manage properties across Houston — pricing, vendors, regulations, and neighborhoods we know from the inside.
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="about__right">
+        <div class="about__founder-label">The Founder</div>
+        <div class="about__founder-name">Jose Escobar</div>
+        <div class="about__founder-title">Founder &amp; CEO — Decentralized Property Management</div>
+        <p class="about__founder-bio">
+          After studying Electrical and Computer Engineering, Jose built systems for industrial automation —
+          PLC control logic, sensor networks, distributed controls. Then he encountered residential
+          property management.
+          <br><br>
+          The inefficiency was identical: smart people doing repetitive work without systems to support them.
+          Owners waiting on monthly calls for numbers they should see in real time. Tenants submitting
+          requests with no acknowledgment. Vendors uncoordinated. Reports nonexistent.
+          <br><br>
+          DPM exists to fix that — by running property operations the way a good engineering team runs a
+          system: with documentation, accountability, and zero tolerance for undocumented failure.
+        </p>
+        <div class="about__badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+            <polyline points="22 4 12 14.01 9 11.01"/>
+          </svg>
+          ECE Degree · Engineering-Led · Houston, TX
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 6 — PROOF
+     ============================================================ -->
+<section class="proof">
+  <div class="container">
+    <span class="section-label">Results</span>
+    <h2>What Better Management Looks Like in Practice</h2>
+
+    <div class="proof-grid">
+
+      <div class="proof-card">
+        <div class="proof-card__header">
+          <div class="proof-card__type">Residential Owner</div>
+          <div class="proof-card__company">Single-Family Portfolio — Houston</div>
+        </div>
+        <div class="proof-card__body">
+          <div class="proof-col">
+            <div class="proof-col__label proof-col__label--before">Before</div>
+            <p>Units sitting vacant 60+ days. No proactive marketing. Missed 30% of lease renewal windows.</p>
+          </div>
+          <div class="proof-col">
+            <div class="proof-col__label proof-col__label--after">After</div>
+            <p>Average days-to-lease cut to 18. Renewal outreach starts 90 days out. Vacancy rate under 5%.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="proof-card">
+        <div class="proof-card__header">
+          <div class="proof-card__type">Resident Experience</div>
+          <div class="proof-card__company">Multi-Unit Property — Midtown</div>
+        </div>
+        <div class="proof-card__body">
+          <div class="proof-col">
+            <div class="proof-col__label proof-col__label--before">Before</div>
+            <p>Maintenance requests going unanswered for weeks. Residents leaving over communication failures.</p>
+          </div>
+          <div class="proof-col">
+            <div class="proof-col__label proof-col__label--after">After</div>
+            <p>24-hour triage SLA. Every request acknowledged same day, vendor dispatched within 48 hours.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="proof-card">
+        <div class="proof-card__header">
+          <div class="proof-card__type">Commercial Owner</div>
+          <div class="proof-card__company">Strip Center — Northwest Houston</div>
+        </div>
+        <div class="proof-card__body">
+          <div class="proof-col">
+            <div class="proof-col__label proof-col__label--before">Before</div>
+            <p>No monthly reporting. Owner calling for updates. CAM reconciliations arriving three months late.</p>
+          </div>
+          <div class="proof-col">
+            <div class="proof-col__label proof-col__label--after">After</div>
+            <p>Automated monthly statements by the 5th. CAM reconciled quarterly. Zero missed reporting cycles.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="proof__disclaimer">Representative property management outcomes. Results vary by property type, condition, and market conditions.</p>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 7 — CTA SPLIT
+     ============================================================ -->
+<section id="contact" class="cta-split">
+
+  <div class="cta-panel cta-panel--owner" id="contact-owners">
+    <div class="cta-panel__content">
+      <span class="cta-panel__label">For Property Owners</span>
+      <h2>Ready to Hand Off<br>the Day-to-Day?</h2>
+      <p>Book a free 30-minute property audit. We'll assess your current setup, identify quick wins, and show you exactly what professional management looks like for your portfolio.</p>
+      <!-- TODO: swap href with owner consultation / calendar booking link -->
+      <a class="btn btn-light" href="#">Schedule a Free Audit</a>
+    </div>
+  </div>
+
+  <div class="cta-panel cta-panel--tenant" id="contact-tenants">
+    <div class="cta-panel__content">
+      <span class="cta-panel__label">For Tenants</span>
+      <h2>Looking for a Home<br>in Houston?</h2>
+      <p>Browse available properties managed by DPM — residential and commercial. Apply online, get a straight answer, and move in without the runaround.</p>
+      <!-- TODO: swap href with listings / rental application link -->
+      <a class="btn btn-light" href="#">Browse Available Rentals</a>
+    </div>
+  </div>
+
+  <div class="cta-contact">
+    <p>
+      Or reach us directly:
+      <a href="tel:7132992339">713-299-2339</a>
+      &nbsp;·&nbsp;
+      <a href="mailto:info@decentralizedpm.com">info@decentralizedpm.com</a>
+    </p>
+  </div>
+
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+
+      <div>
+        <img class="footer__logo" src="assets/images/logo.png" alt="Decentralized Property Management" />
+        <p class="footer__tagline">
+          Modern Property Management, Decentralized.<br><br>
+          Houston, TX · decentralizedpm.com
+        </p>
+      </div>
+
+      <div>
+        <div class="footer__col-title">For Owners</div>
+        <ul class="footer__links">
+          <li><a href="#services">Full-Service Management</a></li>
+          <li><a href="#services">Tenant Placement</a></li>
+          <li><a href="#services">Portfolio Management</a></li>
+          <li><a href="#services">Owner Reporting</a></li>
+          <li><a href="#contact-owners">Owner Consultation</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer__col-title">For Tenants</div>
+        <ul class="footer__links">
+          <li><a href="#contact-tenants">Available Rentals</a></li>
+          <li><a href="#contact-tenants">Resident Portal</a></li>
+          <li><a href="#contact-tenants">Maintenance Requests</a></li>
+          <li><a href="#contact-tenants">Apply Online</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer__col-title">Connect</div>
+        <div class="footer__contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.07 12 19.79 19.79 0 0 1 2 3.18 2 2 0 0 1 4 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          <a href="tel:7132992339">713-299-2339</a>
+        </div>
+        <div class="footer__contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="M2 8l10 7 10-7"/>
+          </svg>
+          <a href="mailto:info@decentralizedpm.com">info@decentralizedpm.com</a>
+        </div>
+        <div class="footer__contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+          Houston, TX
+        </div>
+        <div style="margin-top: 20px;">
+          <a class="btn btn-primary" href="#contact-owners" style="font-size:0.82rem;padding:10px 22px;">Owner Consultation</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer__bottom">
+      <span class="footer__copy">&copy; 2026 Decentralized Property Management. All rights reserved.</span>
+      <span class="footer__copy"><a href="mailto:info@decentralizedpm.com" style="color:rgba(240,244,248,0.25);">info@decentralizedpm.com</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- Mobile menu toggle + nav scroll state -->
+<script>
+  const hamburger = document.querySelector('.nav__hamburger');
+  const navLinks  = document.querySelector('.nav__links');
+  const navCtas   = document.querySelector('.nav__ctas');
+
+  if (hamburger) {
+    hamburger.addEventListener('click', () => {
+      const isOpen = navLinks.style.display === 'flex';
+      navLinks.style.display       = isOpen ? '' : 'flex';
+      navLinks.style.flexDirection = 'column';
+      navLinks.style.position      = 'absolute';
+      navLinks.style.top           = '68px';
+      navLinks.style.left          = '0';
+      navLinks.style.right         = '0';
+      navLinks.style.background    = '#fff';
+      navLinks.style.padding       = '20px 24px 24px';
+      navLinks.style.boxShadow     = '0 8px 24px rgba(44,62,80,0.12)';
+      navLinks.style.gap           = '18px';
+      navCtas.style.display        = isOpen ? '' : 'none';
+      hamburger.setAttribute('aria-expanded', !isOpen);
+    });
+  }
+
+  document.querySelectorAll('.nav__links a').forEach(link => {
+    link.addEventListener('click', () => {
+      if (window.innerWidth < 768) {
+        navLinks.style.display = '';
+        if (navCtas) navCtas.style.display = '';
+        hamburger && hamburger.setAttribute('aria-expanded', 'false');
+      }
+    });
+  });
+
+  // Nav transparent → solid on scroll past hero
+  const navEl  = document.querySelector('.nav');
+  const heroEl = document.querySelector('.hero');
+  const setNavState = () => {
+    const threshold = heroEl ? heroEl.offsetHeight - 80 : 400;
+    if (window.scrollY > threshold) {
+      navEl.classList.remove('nav--transparent');
+      navEl.classList.add('nav--solid');
+    } else {
+      navEl.classList.add('nav--transparent');
+      navEl.classList.remove('nav--solid');
+    }
+  };
+  setNavState();
+  window.addEventListener('scroll', setNavState, { passive: true });
+</script>
+
+</body>
+</html>
